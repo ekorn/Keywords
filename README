@@ -1,9 +1,8 @@
 # Keywords
+
 Basicly this is just a extension to to [glossary](https://github.com/harthur/glossary) it add language detection via [node-language-detect](https://github.com/FGRibreau/node-language-detect) 
 and filters out some stopwords (from [ranks.nl](http://www.ranks.nl/resources/stopwords.html) ) 
-to improve non English results. 
-
-I use it in the following way:
+to improve non English results. I use it in the following way:
 
 ```javascript
 var text = "some text";
