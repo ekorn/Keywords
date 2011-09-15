@@ -5,7 +5,7 @@
     "author": "Nico Lehmann <nlehmann@upbDOTmailDOTde>",
     "repository": {
         "type": "git",
-        "url": "http://github.com/harthur/glossary.git"
+        "url": "http://github.com/ekorn/Keywords/Keywords.git"
     },
     "main": "./keywords",
     "dependencies": {
@@ -13,5 +13,5 @@
         "languagedetect": ">=0.0.1",
         "glossary": ">=0.1.1"
     },
-    "keywords": ["term extraction", "keyword", "tag", "auto tag"]
+    "keywords": ["term extraction", "keyword", "tag", "auto tag", "language detection"]
 }
