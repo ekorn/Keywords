@@ -1,0 +1,17 @@
+{
+    "name": "keywords",
+    "description": "Term extraction and language detection  module",
+    "version": "0.1.0",
+    "author": "Nico Lehmann <nlehmann@upbDOTmailDOTde>",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/harthur/glossary.git"
+    },
+    "main": "./keywords",
+    "dependencies": {
+        "underscore": "1.1.x",
+        "languagedetect": ">=0.0.1",
+        "glossary": ">=0.1.1"
+    },
+    "keywords": ["term extraction", "keyword", "tag", "auto tag"]
+}
