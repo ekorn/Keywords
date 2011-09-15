@@ -11,7 +11,7 @@
     "dependencies": {
         "underscore": "1.1.x",
         "languagedetect": ">=0.0.1",
-        "glossary": ">=0.1.1"
+        "glossary": ">=0.1.0"
     },
     "keywords": ["term extraction", "keyword", "tag", "auto tag", "language detection"]
 }
