@@ -77,6 +77,7 @@ function clearText (text, regExs){
 }
 
 function readAllStopwordFilesSync(path){
+  var fs = require("fs");
     var languanges = {};
   files = fs.readdirSync(path);
   files.forEach(function (filename){
@@ -88,6 +89,7 @@ function readAllStopwordFilesSync(path){
 }
 
 function readAllStopwordFiles(path,callback){
+  var fs = require("fs");
   var languanges = {};
   var readCount = 0;
   
